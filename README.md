@@ -12,4 +12,35 @@ Deploy feito no heroku no endereço <a> https://apinode-carros.herokuapp.com/ <a
   
   ("/") Metodo get que retorna todas os registros já cadastrados
   
+  ![](2021-07-09.png)
   
+### Rota n°2
+  
+  ("/search") Metodo get. Consulta por Nome, Tipo, e Montadora passados na query. Retorna os registros encontrados
+  
+  ![](2021-07-09%20(3).png)
+  
+### Rota n°3
+  
+  ("/cars") Metodo post. Registra uma nova tabela com os campos passados na requisição.
+  
+  {
+    "nome":
+    "tipo":
+    "montadora":
+    "ano":
+  }
+  
+  ![](2021-07-09%20(5).png)
+  
+### Rota n°4
+  
+  ("/refresh/:id") Metodo put. Passado o id, atualiza campos que são passados na requisição
+  
+  ![](2021-07-09%20(2).png)
+  
+### Rota n°5
+  
+  ("/:id") Metodo delete. Deleta um registro pelo id que foi passado.
+  
+  ![](2021-07-09%20(1).png)
